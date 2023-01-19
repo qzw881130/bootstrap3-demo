@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="v3/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!--    col-xs-数值  col-sm col-md col-lg -->
+            <div class="col-md-4 col-lg-4" style="background-color: rebeccapurple;">4</div>
+            <div class="col-md-8 col-lg-8" style="background-color: seagreen;">8</div>
+        </div>
+<hr>
+        <div class="row">
+            <div class="col-md-1" style="background-color: springgreen;">1</div>
+            <div class="col-md-1" style="background-color:steelblue;">1</div>
+            <div class="col-md-1" style="background-color: rgb(73, 132, 102);">1</div>
+            <div class="col-md-1" style="background-color: rgb(13, 0, 255);">1</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6" style="background-color: thistle;">6</div>
+            <div class="col-md-6">6</div>
+        </div>
+<hr>
+        <fieldset>列总数不能超过12，超过时，将换行</fieldset>
+        <div class="row">
+            <div class="col-md-4" style="background-color: thistle;">4</div>
+            <div class="col-md-4" style="background-color: tomato;">4</div>
+            <div class="col-md-5" style="background-color: turquoise;">5</div>
+        </div>
+
+<fieldset>列偏移</fieldset>
+        <div class="row">
+            <div class="col-md-1" style="background-color: springgreen;">1</div>
+            <div class="col-md-1 col-md-offset-1" style="background-color:steelblue;">1</div>
+            <div class="col-md-1" style="background-color: rgb(73, 132, 102);">1</div>
+            <div class="col-md-1 col-md-offset-2" style="background-color: rgb(13, 0, 255);">1</div>
+        </div>
+
+
+        <hr>
+        <fieldset>列排序</fieldset>
+        <div class="row">
+            <div class="col-md-1" style="background-color: springgreen;">1</div>
+            <div class="col-md-1 col-md-push-3" style="background-color:steelblue;">1</div>
+            <div class="col-md-1" style="background-color: rgb(73, 132, 102);">1</div>
+            <div class="col-md-1 col-md-pull-2" style="background-color: rgb(13, 0, 255);">1</div>
+        </div>
+
+        <hr>
+        <fieldset>列嵌套</fieldset>
+        <div class="row">
+            <div class="col-md-6" style="background-color: springgreen;">
+                <div class="row">
+                    <div class="col-md-1" style="background-color: rgb(206, 244, 118);">1</div>
+                    <div class="col-md-9" style="background-color: rgb(162, 118, 244);">9</div>
+                </div>
+            </div>
+            <div class="col-md-6" style="background-color:steelblue;">6</div>
+        </div>
+
+        <hr>
+        <fieldset>col-md-3 大屏时占3格, col-sm-6 小屏时占6格， 这样就变相成占几行</fieldset>
+        <div class="row">
+            <div class="col-md-3 col-sm-6" style="background-color: turquoise;">3</div>
+            <div class="col-md-3 col-sm-6" style="background-color: rgb(64, 64, 224);">3</div>
+            <div class="col-md-3 col-sm-6" style="background-color: rgb(91, 224, 64);">3</div>
+            <div class="col-md-3 col-sm-6" style="background-color: rgb(224, 133, 64);">3</div>
+        </div>
+
+
+    </div>
+
+
+    
+</body>
+</html>
