@@ -7,3 +7,10 @@ https://v3.bootcss.com/
 
 >
 container, row、 xs (xsmall phones), sm (small tablets), md (middle desktops), Ig (larger desktops)即：超小屏(自动)，小屏(750px)，中屏(970px)和大屏(1170px)
+
+
+#### Image responsive
+https://v3.bootcss.com/css/?#images
+```html
+<img src="..." class="img-responsive" alt="Responsive image">
+```
