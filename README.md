@@ -14,3 +14,4 @@ https://v3.bootcss.com/css/?#images
 ```html
 <img src="..." class="img-responsive" alt="Responsive image">
 ```
+
